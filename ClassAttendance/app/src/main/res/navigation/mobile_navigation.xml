@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_class">
+
+    <fragment
+        android:id="@+id/navigation_class"
+        android:name="com.jeffersondeguzman.classattendance.ui.classUI.ClassFragment"
+        android:label="Class"
+        tools:layout="@layout/fragment_class" />
+
+    <fragment
+        android:id="@+id/navigation_attendance"
+        android:name="com.jeffersondeguzman.classattendance.ui.attendance.AttendanceFragment"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_attendance" />
+
+    <fragment
+        android:id="@+id/navigation_students"
+        android:name="com.jeffersondeguzman.classattendance.ui.students.StudentsFragment"
+        android:label="Students"
+        tools:layout="@layout/fragment_students" />
+
+    <fragment
+        android:id="@+id/navigation_add_class"
+        android:name="com.jeffersondeguzman.classattendance.ui.classUI.AddClassFragment"
+        android:label="Add Class"
+        tools:layout="@layout/fragment_add_class" />
+
+    <fragment
+        android:id="@+id/navigation_add_attendance"
+        android:name="com.jeffersondeguzman.classattendance.ui.attendance.AddAttendanceFragment"
+        android:label="Add Attendance"
+        tools:layout="@layout/fragment_add_attendance" />
+
+    <fragment
+        android:id="@+id/navigation_add_student"
+        android:name="com.jeffersondeguzman.classattendance.ui.students.AddStudentsFragment"
+        android:label="Add Student"
+        tools:layout="@layout/fragment_add_student" />
+
+    <fragment
+        android:id="@+id/navigation_edit_student"
+        android:name="com.jeffersondeguzman.classattendance.ui.students.EditStudentsFragment"
+        android:label="Edit Student"
+        tools:layout="@layout/fragment_edit_student" />
+</navigation>

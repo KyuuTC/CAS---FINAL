@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825438607996",
+    "project_id": "class-attendance-f6033",
+    "storage_bucket": "class-attendance-f6033.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825438607996:android:e53a035a7dc07424cd87f9",
+        "android_client_info": {
+          "package_name": "com.jeffersondeguzman.classattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApicxXTNBYTrwqxZgCUTSbQx4NrIf8mek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

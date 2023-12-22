@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/classCardView"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:backgroundTint="#00171F"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/studName"
+            style="@style/TextAppearance.MaterialComponents.Headline3"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:text="studentName"
+            android:textColor="#E9ECEE"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnPresent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="present"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/btnAbsent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="absent"
+            app:cornerRadius="50dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
